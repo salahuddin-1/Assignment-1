@@ -1,0 +1,38 @@
+Commands
+
+1. git init 
+2. notepad Instruction1.txt
+3. notepad Instruction2.txt
+4. notepad Instruction3.txt
+
+5. git checkout -b dev
+6. git add Instruction1.txt
+7. git commit -m "Added Instruction1.txt in dev branch"
+
+8. git status
+
+9. git checkout -b test
+10. git add Instruction2.txt
+11. git add Instruction3.txt
+12. git commit -m "Added Instruction2.txt & 3 in test branch"
+
+13. git status
+
+14. notepad Instruction1.txt -> to modify
+15. git status
+16. git diff
+
+17. git add Instruction1.txt
+18. git commit -m "Modified Instruction1.txt"
+
+19. git merge test
+20. git merge dev
+21. git remote add origin https://github.com/salahuddin-1/Assignment-1.git
+22. git push -u origin main
+
+23. git clone https://github.com/salahuddin-1/Assignment-1
+
+24. git add Cloned
+25. git commit -m "Added Cloned"
+
+26. git push -u origin master
